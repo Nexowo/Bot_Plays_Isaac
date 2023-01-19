@@ -1,5 +1,4 @@
 import keyboard as key
-import time
 '''
 This file is used to define all the inputs the bot may need to use.
 Used to work with an AZERTY keyboard configuration. You may change the inputs depending on the one you use in your game.
