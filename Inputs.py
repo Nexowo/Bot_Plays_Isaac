@@ -1,4 +1,5 @@
 import keyboard as key
+from time import sleep
 '''
 This file is used to define all the inputs the bot may need to use.
 Used to work with an AZERTY keyboard configuration. You may change the inputs depending on the one you use in your game.
@@ -45,3 +46,8 @@ def release_dir():
     key.release('q')
     key.release('s')
     key.release('d')
+    
+def switch(n : int):
+    key.press('ctrl')
+    sleep(n)
+    key.release('ctrl')
